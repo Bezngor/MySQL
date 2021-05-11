@@ -1,5 +1,5 @@
 /*
-Задание 1.sql
+Задание 1
 
 SCHEMA:
 
@@ -31,7 +31,7 @@ CREATE TABLE Address(
 
 TRUNCATE TABLE Person;
 
-INSERT INTO Person (PersonId, LastName, FirstName) VALUES ('1.sql', 'Wang', 'Allen');
+INSERT INTO Person (PersonId, LastName, FirstName) VALUES ('1', 'Wang', 'Allen');
 INSERT INTO Person (PersonId, LastName, FirstName) VALUES ('2', 'John', 'Smith');
 INSERT INTO Person (PersonId, LastName, FirstName) VALUES ('3', 'Lee', 'Cooper');
 INSERT INTO Person (PersonId, LastName, FirstName) VALUES ('4', 'Mike', 'Prat');
@@ -39,9 +39,9 @@ INSERT INTO Person (PersonId, LastName, FirstName) VALUES ('5', 'Ann', 'Miller')
 
 TRUNCATE TABLE Address;
 
-INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('1.sql', '2', 'New York City', 'New York');
+INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('1', '2', 'New York City', 'New York');
 INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('2', '3', 'Los Angeles', 'California');
-INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('3', '1.sql', 'Chicago', 'Illinois');
+INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('3', '1', 'Chicago', 'Illinois');
 INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('4', '5', 'Houston', 'Texas');
 INSERT INTO Address (AddressId, PersonId, City, State) VALUES ('5', '4', 'Phoenix', 'Arizona');
 
